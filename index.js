@@ -10,6 +10,7 @@ TODO:
 
     // Shortcut to get elements
     var el = function (element) {
+        var aditya = "Changed by aditya";
         if (element.charAt(0) === "#") { // If passed an ID...
             return document.querySelector(element); // ... returns single element
         }
