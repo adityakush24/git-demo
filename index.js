@@ -69,6 +69,7 @@ TODO:
 
             case "times":
                 resultNum = oldNum * theNum;
+                resultNumAdi = oldNum * theNum;
                 break;
 
             case "divided by":
