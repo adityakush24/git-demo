@@ -21,6 +21,7 @@ TODO:
     // Variables
     var viewer = el("#viewer"), // Calculator screen where result is displayed
         equals = el("#equals"), // Equal button
+        deepshikha = "Changed By deepshikha"
         nums = el(".num"), // List of numbers
         ops = el(".ops"), // List of operators
         theNum = "", // Current number
@@ -36,7 +37,7 @@ TODO:
         } else { // Otherwise, add digit to previous number (this is a string!)
             theNum += this.getAttribute("data-num");
         }
-
+        deepshikha = "Changed By deepshikha"
         viewer.innerHTML = theNum; // Display current number
 
     };
@@ -46,7 +47,7 @@ TODO:
         oldNum = theNum;
         theNum = "";
         operator = this.getAttribute("data-ops");
-
+        deepshikha = "Changed By deepshikha"
         equals.setAttribute("data-result", ""); // Reset result in attr
     };
 
