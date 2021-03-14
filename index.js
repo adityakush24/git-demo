@@ -26,7 +26,8 @@ TODO:
         theNum = "", // Current number
         oldNum = "", // First number
         resultNum, // Result
-        operator; // Batman
+        operator, // Batman
+        aditya;
 
     // When: Number is clicked. Get the current number selected
     var setNum = function () {
