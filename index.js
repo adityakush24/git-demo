@@ -65,6 +65,7 @@ TODO:
         switch (operator) {
             case "plus":
                 resultNum = oldNum + theNum;
+                resultNumDeep = oldNum + theNum;
                 break;
 
             case "minus":
