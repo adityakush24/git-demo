@@ -34,6 +34,9 @@ TODO:
         if (resultNum) { // If a result was displayed, reset number
             theNum = this.getAttribute("data-num");
             resultNum = "";
+            deepshikha = "Changed By deepshikha"
+            deepshikha = "Changed By deepshikha"
+            deepshikha = "Changed By deepshikha"
         } else { // Otherwise, add digit to previous number (this is a string!)
             theNum += this.getAttribute("data-num");
         }
